@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    background-image: url(imagenes/fondo.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+:root{
+    --color1:var (rgb(255, 165, 0));
+    --color2:var (rgb(0, 171, 245));
+    --color3:var (rgb(128, 192, 0));
+}
+#principal{
+    margin: 2%;
+    
+}
+ #cabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#cabecera img{
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 50%;
+}
+h1{
+    color: rgb(0, 171, 245);
+    background: linear-gradient(white), url('imagenes/fondo.jpg');
+    text-shadow: 0px 5px 10px grey
+}
+hr{
+    border-top: 2px solid black
+}  
+h4, h4 * {/* Esto quita la imagen de fondo del h4 y de cualquier etiqueta interna (em, sup, etc) */
+    background-image: none !important;
+    background-color: white !important;
+}
+/*!important es una regla que fuerza la máxima prioridad sobre una propiedad específica, anulando cualquier otra declaración de estilo conflictiva, incluso si tienen mayor especificidad o están definidas en línea. fuente: google*/
+h4 {
+  display: table;
+  margin-left: auto !important;/* Esto empuja el h4 a la derecha */
+  margin-right: 0px !important;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 2px 0px;
+  text-align: right;
+}
+h2{
+    text-decoration: underline;
+    font-style: italic;
+    margin: 30px 0px;
+}
+
+/* Aquí empiezan los "cuadros" */
+.cuadro{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 5px;
+    padding: 15px 0px;
+}
+#parteHTML, #parteCSS, #parteJS{
+    width: 30%;
+    padding: 20px;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    padding: 10px;
+}
+#parteHTML img, #parteCSS img, #parteJS img{
+    width: 30%;
+    height: auto;
+    margin: 10px auto;
+}
+#parteHTML{
+    background-image: none !important;
+    background-color: rgb(255, 243, 221) ;
+}
+#parteCSS{
+    background-image: none !important;
+    background-color: rgb(221, 243, 255) ;
+}
+#parteJS{
+    background-image: none !important;
+    background-color: rgb(238, 255, 203) ;
+}
+.texHTML{
+    text-align: justify;
+    color: rgb(61, 61, 61);
+    font-size: 15px;
+    background-image: none !important;
+    background-color: rgb(255, 243, 221);
+}
+.texCSS{
+    text-align: justify;
+    color: rgb(61, 61, 61);
+    font-size: 15px;
+    background-image: none !important;
+    background-color: rgb(221, 243, 255);
+}
+.texJS{
+    text-align: justify;
+    color: rgb(61, 61, 61);
+    font-size: 15px;
+    background-image: none !important;
+    background-color: rgb(238, 255, 203);
+}
+.subHTML{
+    background-image: none !important;
+    background-color: rgb(255, 165, 0) ;
+    color: white !important;
+    text-align: center;
+    border: 1px solid grey;
+    padding: 15px;
+}
+.subCSS{
+    background-image: none !important;
+    background-color: rgb(0, 171, 245);
+    color: white !important;
+    text-align: center;
+    border: 1px solid grey;
+    padding: 15px;
+}
+.subJS{
+    background-image: none !important;
+    background-color: rgb(128, 192, 0);
+    color: white !important;
+    text-align: center;
+    border: 1px solid grey;
+    padding: 15px;
+}
+
+.iconoHTML{
+    background-image: none !important;
+    background-color: rgb(255, 165, 0) ;
+    color: white !important;
+    text-align: center;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.iconoCSS{
+    background-image: none !important;
+    background-color: rgb(0, 171, 245);
+    color: white !important;
+    text-align: center;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.iconoJS{
+    background-image: none !important;
+    background-color: rgb(128, 192, 0);
+    color: white !important;
+    text-align: center;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+#dibujo{
+    margin: 20px 0px;
+}
+#dibujo img{
+    width: 550px;
+    height: auto;
+    margin: auto;
+    display: block;
+    box-shadow: 10px 10px 5px grey;
+}
+.pieTexto{
+    color: rgb(61, 61, 61);
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    border: grey 1px solid;
+    border-radius: 8px;
+    padding: 10px;
+    background-image: none !important;
+    background-color: white;
+}
+
+
+
+
